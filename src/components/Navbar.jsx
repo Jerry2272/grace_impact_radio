@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className=" text-white px-6 py-4 shadow-md fixed w-full top-0 z-[999]"
+    <nav className=" text-white px-6 py-4 shadow-md fixed w-full top-0 z-[100]"
     style={
       { background: 'linear-gradient(90deg, #0B0B2A 60%, #1A1A4A 100%)' }
     }
@@ -53,12 +53,12 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {menuOpen && (
         <div className="md:hidden bg-[#0A0A1A] mt-4 pb-4 px-4 space-y-3 text-center border-t border-gray-700">
-           <li className="hover:text-[#00FFFF] transition duration-300 cursor-pointer">
+           <p className="hover:text-[#00FFFF] transition duration-300 cursor-pointer">
             <a href="/">Home</a>
-          </li>
-          <li className="hover:text-[#00FFFF] transition duration-300 cursor-pointer">
-            <a href="/about">About Us</a>
-            </li>
+          </p>
+          <p className="hover:text-[#00FFFF] ">
+            <a href="/about" className="transition duration-300 cursor-pointer">About Us</a>
+            </p>
           <p className="hover:text-[#00FFFF] cursor-pointer">Show Schedule</p>
           <p className="hover:text-[#00FFFF] cursor-pointer">Blog</p>
           <p className="hover:text-[#00FFFF] cursor-pointer">Pages</p>
