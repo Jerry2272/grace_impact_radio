@@ -36,7 +36,7 @@ const Hero = () => {
         /> */}
 
         {/* Now Playing Box */}
-        <div className="absolute bottom-0 md:-bottom-6 left-1/2 md:left-auto -translate-x-1/2 md:translate-x-0 bg-[#0B0B2A] w-[90%] md:w-[80%] rounded-xl py-2 px-5 flex flex-col sm:flex-row items-center justify-between text-sm text-gray-300 border border-[#E30613]/70 shadow-md space-y-2 sm:space-y-0 sm:space-x-4">
+        <div className="absolute bottom-0  md:-bottom-6 left-1/2 md:left-auto -translate-x-1/2 md:translate-x-0 bg-[#0B0B2A] w-[90%] md:w-[80%] rounded-xl py-2 px-5 flex flex-col sm:flex-row items-center justify-between text-sm text-gray-300 border border-[#E30613]/70 shadow-md space-y-2 sm:space-y-0 sm:space-x-4 z-[-999]">
           <div className="text-center sm:text-left">
             <p className="font-semibold text-white">Now Playing</p>
             <p className="text-[#00FFFF] truncate">"Power in the Word – Rev O"</p>
